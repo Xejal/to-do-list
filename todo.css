@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #485563, #29323c);   
+}
+.header{
+    border: 20px solid yellow;
+    border-radius: 10px;
+}
+.container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 30px;
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.input-field{
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100px;
+}
+input[type="text"]{
+    color: #fff;
+    border: none;
+    background-color: #2672c4;
+    max-width: 400px;
+
+}
+.todoss{
+    width: 150px;
+    height: 30px;
+    background-color: blueviolet;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.todos li{
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+.delete{
+    cursor: pointer;
+    color: red;
+}
+i.fa-solid{
+    background-color: red;
+}
+#textInput{
+    width: 386px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(211, 206, 206);
+}
+img{
+    position: absolute;
+    top: 130px;
+    right: 50px;
+}
+.iks{
+    position: absolute;
+    top: 175px;
+    right: 70px;
+    background-color: #fff;
+}
